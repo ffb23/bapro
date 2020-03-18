@@ -2,12 +2,12 @@ import React from 'react';
 // eslint-disable-next-line
 import logo from './logo.svg';
 import './App.css';
-import Table from '../src/components/table/index'
+import TableContainer from '../src/components/tableContainer/index'
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <TableContainer />
     </div>
   );
 }
